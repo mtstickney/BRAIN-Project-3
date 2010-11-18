@@ -1,4 +1,5 @@
 BRAIN10    (sends strings of numbers to be sorted)
+100
 BU06
 0090    (send location)
 0000    (numbers)
@@ -22,6 +23,7 @@ SD01
 HAXX
 
 BRAIN10    (sorter #1)
+100
 BU04
 0080    (receive location)
 0090    (send location)
@@ -80,6 +82,7 @@ SD02
 HAXX
 
 BRAIN10    (sorter #2 (same))
+100
 BU04
 0080
 0090
@@ -138,6 +141,7 @@ SD03
 HAXX
 
 BRAIN10    (sorter #3 (same))
+100
 BU04
 0080
 0090
@@ -196,6 +200,7 @@ SD04
 HAXX
 
 BRAIN10    (saves and displays sorted numbers)
+100
 BU02
 0080    (receive location)
 

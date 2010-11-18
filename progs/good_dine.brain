@@ -1,4 +1,5 @@
 BRAIN10 (Fork process 1)
+19
 BU11 00 //skip to code seg
 0000 01 // location to store current PID
 0000 02
@@ -20,6 +21,7 @@ SDXX 17 // ask to be put down again
 BU11
 
 BRAIN10 (Fork process 2)
+19
 BU11 00 //skip to code seg
 0000 01 // location to store current PID
 0000 02
@@ -41,6 +43,7 @@ SDXX 17 // ask to be put down again
 BU11
 
 BRAIN10 (Philosopher process 1)
+19
 BU11 00 // skip to code seg
 0000 01 // pid storage location
 0000 02
@@ -62,6 +65,7 @@ RCXX
 BU13
 
 BRAIN10 (Philosopher process 2)
+19
 BU11 00 // skip to code seg
 0000 01 // pid storage location
 0000 02
