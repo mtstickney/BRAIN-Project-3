@@ -116,7 +116,7 @@ int main()
 		fprintf(stderr, "Scheduler init failed\n");
 		return 1;
 	}
-	msg_init();
+	vm_init();
 	sem_setup();
 	init_mem();
 	if (load_file(stdin) != 0) {

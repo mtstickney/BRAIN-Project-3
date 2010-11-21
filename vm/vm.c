@@ -18,7 +18,7 @@ struct msg_queues
 static struct msg_queues msg_wq[11];
 static struct plist_head sem_wq[100];
 
-void msg_init()
+void vm_init()
 {
 	memset(msg_wq, 0, 10*sizeof(struct msg_queues));
 	memset(sem_wq, 0, 100*sizeof(struct plist_head));
